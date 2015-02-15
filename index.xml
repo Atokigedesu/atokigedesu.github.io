@@ -13,31 +13,6 @@
     <atom:link href="http://atokigedesu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>判定動画作成スクリプト</title>
-      <link>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</link>
-      <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
-      
-      <guid>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://smashboards.com/threads/stratocasters-hitbox-system-new-download-link.283973/&#34;&gt;こちらの攻撃判定データの全画像化プロジェクト&lt;/a&gt;が面白そうだったので動画化するスクリプト作りました。&lt;/p&gt;
-
-&lt;p&gt;出力はこんな感じ&lt;br /&gt;
-&lt;video src=&#34;http://atokigedesu.github.io/videos/hitbox-generation-sample.mp4&#34; controls loop&gt;&lt;/p&gt;
-
-&lt;script src=&#34;https://gist.github.com/Atokigedesu/39243a406abc56f7213e.js&#34;&gt;&lt;/script&gt;
-
-&lt;p&gt;上のプロジェクトのリンクから&lt;code&gt;New Hitboxes.zip&lt;/code&gt;をダウンロードしてきて、上のスクリプトを zip と同じディレクトリで実行すると使えます。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://atokigedesu.github.io/images/how-to-download-all-hitbox-images.png&#34; alt=&#34;ダウンロード場所&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;以前作った &lt;a href=&#34;http://atokigedesu.github.io/HitboxSlider/&#34;&gt;HTML5 video タグを 1 フレーム単位で再生するこれ&lt;/a&gt;と組み合わせてうにょうにょしたいなーとか。&lt;/p&gt;
-
-&lt;p&gt;これ、Mac で作ったけど Linux でも動くんじゃないかな。ある程度はしっかりつくりました。
-ただ、まあ、元データの命名規則がバラバラなので上手く動画化されないキャラもいます……。&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>生放送で使うアプリ</title>
       <link>http://atokigedesu.github.io/memo/apps_for_live/</link>
       <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
@@ -171,6 +146,31 @@ IRC 用のアプリなら色々あるが、これのマクロ機能を使って�
 &lt;h2 id=&#34;まとめ:7cec446576d159c4d846a3a9538c1247&#34;&gt;まとめ&lt;/h2&gt;
 
 &lt;p&gt;僕はスマブラ配信には Twitch + Open Broadcaster Software + LimeChat + 棒読みちゃん を、デスクトップキャプチャ配信には USTREAM + Ustream Producer を使うことにしました。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>判定動画作成スクリプト</title>
+      <link>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</link>
+      <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
+      
+      <guid>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://smashboards.com/threads/stratocasters-hitbox-system-new-download-link.283973/&#34;&gt;こちらの攻撃判定データの全画像化プロジェクト&lt;/a&gt;が面白そうだったので動画化するスクリプト作りました。&lt;/p&gt;
+
+&lt;p&gt;出力はこんな感じ&lt;br /&gt;
+&lt;video src=&#34;http://atokigedesu.github.io/videos/hitbox-generation-sample.mp4&#34; controls loop&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/Atokigedesu/39243a406abc56f7213e.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;上のプロジェクトのリンクから&lt;code&gt;New Hitboxes.zip&lt;/code&gt;をダウンロードしてきて、上のスクリプトを zip と同じディレクトリで実行すると使えます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://atokigedesu.github.io/images/how-to-download-all-hitbox-images.png&#34; alt=&#34;ダウンロード場所&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;以前作った &lt;a href=&#34;http://atokigedesu.github.io/HitboxSlider/&#34;&gt;HTML5 video タグを 1 フレーム単位で再生するこれ&lt;/a&gt;と組み合わせてうにょうにょしたいなーとか。&lt;/p&gt;
+
+&lt;p&gt;これ、Mac で作ったけど Linux でも動くんじゃないかな。ある程度はしっかりつくりました。
+ただ、まあ、元データの命名規則がバラバラなので上手く動画化されないキャラもいます……。&lt;/p&gt;
 </description>
     </item>
     
