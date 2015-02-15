@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Memos on アトー出張所</title>
-    <link>http://localhost:1313/memo/</link>
+    <link>http://atokigedesu.github.io/memo/</link>
     <description>Recent content in Memos on アトー出張所</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
@@ -10,14 +10,14 @@
     
     
     <lastBuildDate>Sat, 14 Feb 2015 22:41:01 JST</lastBuildDate>
-    <atom:link href="http://localhost:1313/memo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://atokigedesu.github.io/memo/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>生放送で使うアプリ</title>
-      <link>http://localhost:1313/memo/apps_for_live/</link>
+      <link>http://atokigedesu.github.io/memo/apps_for_live/</link>
       <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
       
-      <guid>http://localhost:1313/memo/apps_for_live/</guid>
+      <guid>http://atokigedesu.github.io/memo/apps_for_live/</guid>
       <description>
 
 &lt;p&gt;生放送（ライブ動画配信）を行う上で必要となるサービス、アプリについて考える。

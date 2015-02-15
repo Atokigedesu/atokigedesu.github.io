@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>アトー出張所</title>
-    <link>http://localhost:1313/</link>
+    <link>http://atokigedesu.github.io/</link>
     <description>Recent content on アトー出張所</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
@@ -10,27 +10,27 @@
     
     
     <lastBuildDate>Sat, 14 Feb 2015 22:41:01 JST</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://atokigedesu.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>判定動画作成スクリプト</title>
-      <link>http://localhost:1313/artifact/hitbox_video_generator_script/</link>
+      <link>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</link>
       <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
       
-      <guid>http://localhost:1313/artifact/hitbox_video_generator_script/</guid>
+      <guid>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://smashboards.com/threads/stratocasters-hitbox-system-new-download-link.283973/&#34;&gt;こちらの攻撃判定データの全画像化プロジェクト&lt;/a&gt;が面白そうだったので動画化するスクリプト作りました。&lt;/p&gt;
 
 &lt;p&gt;出力はこんな感じ&lt;br /&gt;
-&lt;video src=&#34;http://localhost:1313/videos/hitbox-generation-sample.mp4&#34; controls loop&gt;&lt;/p&gt;
+&lt;video src=&#34;http://atokigedesu.github.io/videos/hitbox-generation-sample.mp4&#34; controls loop&gt;&lt;/p&gt;
 
 &lt;script src=&#34;https://gist.github.com/Atokigedesu/39243a406abc56f7213e.js&#34;&gt;&lt;/script&gt;
 
 &lt;p&gt;上のプロジェクトのリンクから&lt;code&gt;New Hitboxes.zip&lt;/code&gt;をダウンロードしてきて、上のスクリプトを zip と同じディレクトリで実行すると使えます。&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/how-to-download-all-hitbox-images.png&#34; alt=&#34;ダウンロード場所&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;http://atokigedesu.github.io/images/how-to-download-all-hitbox-images.png&#34; alt=&#34;ダウンロード場所&#34; /&gt;
 &lt;/p&gt;
 
-&lt;p&gt;以前作った &lt;a href=&#34;http://localhost:1313/HitboxSlider/&#34;&gt;HTML5 video タグを 1 フレーム単位で再生するこれ&lt;/a&gt;と組み合わせてうにょうにょしたいなーとか。&lt;/p&gt;
+&lt;p&gt;以前作った &lt;a href=&#34;http://atokigedesu.github.io/HitboxSlider/&#34;&gt;HTML5 video タグを 1 フレーム単位で再生するこれ&lt;/a&gt;と組み合わせてうにょうにょしたいなーとか。&lt;/p&gt;
 
 &lt;p&gt;これ、Mac で作ったけど Linux でも動くんじゃないかな。ある程度はしっかりつくりました。
 ただ、まあ、元データの命名規則がバラバラなので上手く動画化されないキャラもいます……。&lt;/p&gt;
@@ -39,10 +39,10 @@
     
     <item>
       <title>生放送で使うアプリ</title>
-      <link>http://localhost:1313/memo/apps_for_live/</link>
+      <link>http://atokigedesu.github.io/memo/apps_for_live/</link>
       <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
       
-      <guid>http://localhost:1313/memo/apps_for_live/</guid>
+      <guid>http://atokigedesu.github.io/memo/apps_for_live/</guid>
       <description>
 
 &lt;p&gt;生放送（ライブ動画配信）を行う上で必要となるサービス、アプリについて考える。
@@ -176,10 +176,10 @@ IRC 用のアプリなら色々あるが、これのマクロ機能を使って�
     
     <item>
       <title>スマブラDX 改造コード</title>
-      <link>http://localhost:1313/artifact/ssbm_cheat_code/</link>
+      <link>http://atokigedesu.github.io/artifact/ssbm_cheat_code/</link>
       <pubDate>Fri, 21 Feb 2014 01:49:08 JST</pubDate>
       
-      <guid>http://localhost:1313/artifact/ssbm_cheat_code/</guid>
+      <guid>http://atokigedesu.github.io/artifact/ssbm_cheat_code/</guid>
       <description>
 
 &lt;h2 id=&#34;作った改造コード一覧:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;作った改造コード一覧&lt;/h2&gt;
@@ -320,14 +320,14 @@ b -&amp;gt;0x801A3418      # 元の実行位置に戻る
     
     <item>
       <title>スマブラDX 調べプレイ解説放送</title>
-      <link>http://localhost:1313/artifact/how_to_analyze_ssbm_system/</link>
+      <link>http://atokigedesu.github.io/artifact/how_to_analyze_ssbm_system/</link>
       <pubDate>Sat, 14 Sep 2013 13:37:01 JST</pubDate>
       
-      <guid>http://localhost:1313/artifact/how_to_analyze_ssbm_system/</guid>
+      <guid>http://atokigedesu.github.io/artifact/how_to_analyze_ssbm_system/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.ustream.tv/channel/analyze-ssbm-system&#34;&gt;放送ページ&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/misc/How_to_Analyze_SSBM_System.html&#34;&gt;スライド&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://localhost:1313/misc/SSBM.ssg&#34;&gt;拙作 SSG ファイル (SpoilerAL 用)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://atokigedesu.github.io/misc/How_to_Analyze_SSBM_System.html&#34;&gt;スライド&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://atokigedesu.github.io/misc/SSBM.ssg&#34;&gt;拙作 SSG ファイル (SpoilerAL 用)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
