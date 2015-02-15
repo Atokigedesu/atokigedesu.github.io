@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>アトー出張所</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on アトー出張所</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    
+    
+    
+    <lastBuildDate>Sat, 14 Feb 2015 22:41:01 JST</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>判定動画作成スクリプト</title>
+      <link>http://localhost:1313/artifact/hitbox_video_generator_script/</link>
+      <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
+      
+      <guid>http://localhost:1313/artifact/hitbox_video_generator_script/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;http://smashboards.com/threads/stratocasters-hitbox-system-new-download-link.283973/&#34;&gt;こちらの攻撃判定データの全画像化プロジェクト&lt;/a&gt;が面白そうだったので動画化するスクリプト作りました。&lt;/p&gt;
+
+&lt;p&gt;出力はこんな感じ&lt;br /&gt;
+&lt;video src=&#34;http://localhost:1313/videos/hitbox-generation-sample.mp4&#34; controls loop&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://gist.github.com/Atokigedesu/39243a406abc56f7213e.js&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;上のプロジェクトのリンクから&lt;code&gt;New Hitboxes.zip&lt;/code&gt;をダウンロードしてきて、上のスクリプトを zip と同じディレクトリで実行すると使えます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/how-to-download-all-hitbox-images.png&#34; alt=&#34;ダウンロード場所&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;以前作った &lt;a href=&#34;http://localhost:1313/HitboxSlider/&#34;&gt;HTML5 video タグを 1 フレーム単位で再生するこれ&lt;/a&gt;と組み合わせてうにょうにょしたいなーとか。&lt;/p&gt;
+
+&lt;p&gt;これ、Mac で作ったけど Linux でも動くんじゃないかな。ある程度はしっかりつくりました。
+ただ、まあ、元データの命名規則がバラバラなので上手く動画化されないキャラもいます……。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>生放送で使うアプリ</title>
+      <link>http://localhost:1313/memo/apps_for_live/</link>
+      <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
+      
+      <guid>http://localhost:1313/memo/apps_for_live/</guid>
+      <description>
+
+&lt;p&gt;生放送（ライブ動画配信）を行う上で必要となるサービス、アプリについて考える。
+デスクトップキャプチャ (= PC の画面を放送)、ゲーム画面キャプチャ両方。&lt;/p&gt;
+
+&lt;h2 id=&#34;配信サービス:7cec446576d159c4d846a3a9538c1247&#34;&gt;配信サービス&lt;/h2&gt;
+
+&lt;p&gt;有名な配信サービスは以下の三つ。
+それぞれメリットデメリットを挙げる。&lt;/p&gt;
+
+&lt;h3 id=&#34;ニコニコ生放送:7cec446576d159c4d846a3a9538c1247&#34;&gt;ニコニコ生放送&lt;/h3&gt;
+
+&lt;p&gt;日本で動画配信といえば YouTube とニコニコ。ニコニコ生放送に至っては圧倒的知名度。&lt;/p&gt;
+
+&lt;h4 id=&#34;メリット:7cec446576d159c4d846a3a9538c1247&#34;&gt;メリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;国産&lt;/li&gt;
+&lt;li&gt;日本でのユーザー数が多い
+
+&lt;ul&gt;
+&lt;li&gt;コメントの&amp;rdquo;やり方&amp;rdquo;に慣れているユーザーが多い&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;コメントでのコミュニケーションを前提とした設計&lt;/li&gt;
+&lt;li&gt;匿名コメントが可能&lt;/li&gt;
+&lt;li&gt;情報量が豊富&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;デメリット:7cec446576d159c4d846a3a9538c1247&#34;&gt;デメリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;月 500 円のプレミアムアカウント料金&lt;/li&gt;
+&lt;li&gt;30 分ごとの放送枠の取得しなおし＆ユーザーの誘導の手間&lt;/li&gt;
+&lt;li&gt;低画質&lt;/li&gt;
+&lt;li&gt;（視聴にアカウントが必要）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ustream:7cec446576d159c4d846a3a9538c1247&#34;&gt;USTREAM&lt;/h3&gt;
+
+&lt;p&gt;世界で人気のライブ動画配信サービス。
+それなりに長いサービスなので安定してる（気がする）。&lt;/p&gt;
+
+&lt;h4 id=&#34;メリット-1:7cec446576d159c4d846a3a9538c1247&#34;&gt;メリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ustream Producer という専用ソフトで楽に配信ができる&lt;/li&gt;
+&lt;li&gt;日本でも情報量はそれなりにある&lt;/li&gt;
+&lt;li&gt;録画可能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;デメリット-1:7cec446576d159c4d846a3a9538c1247&#34;&gt;デメリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大規模イベント時に性能が落ちる&lt;/li&gt;
+&lt;li&gt;広告&lt;/li&gt;
+&lt;li&gt;（匿名コメントを許可するには設定が必要）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;twitch:7cec446576d159c4d846a3a9538c1247&#34;&gt;Twitch&lt;/h3&gt;
+
+&lt;p&gt;ゲーム専門動画配信サービス。ゲーム特化。&lt;/p&gt;
+
+&lt;h4 id=&#34;メリット-2:7cec446576d159c4d846a3a9538c1247&#34;&gt;メリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ゲーム特化 → ゲーム名で検索される&lt;/li&gt;
+&lt;li&gt;高画質配信ができる&lt;/li&gt;
+&lt;li&gt;録画可能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;デメリット-2:7cec446576d159c4d846a3a9538c1247&#34;&gt;デメリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 アカウント 1 チャンネル (別ゲーするなら毎回編集する必要あり)&lt;/li&gt;
+&lt;li&gt;コメントにアカウントが必要&lt;/li&gt;
+&lt;li&gt;（広告）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ふまえて:7cec446576d159c4d846a3a9538c1247&#34;&gt;ふまえて……&lt;/h3&gt;
+
+&lt;p&gt;ニコ生の 30 分枠はない。配信する方も見る方も面倒すぎる。加えて低画質乙。
+コミュニケーションという最大のメリットも以下に書くツールでなんとかできる。&lt;/p&gt;
+
+&lt;p&gt;USTREAM or Twitch では決定的な差はないが、ゲームするときはゲーム特化という点で Twitch に軍配が上がる。
+逆にデスクトップキャプチャのときは専用のアプリが用意されてる USTREAM に軍配が上がる。&lt;/p&gt;
+
+&lt;h2 id=&#34;アプリ:7cec446576d159c4d846a3a9538c1247&#34;&gt;アプリ&lt;/h2&gt;
+
+&lt;p&gt;ライブ配信は意外と難しい。
+必要なアプリを基本無料で揃える。&lt;/p&gt;
+
+&lt;h3 id=&#34;ustream-producer:7cec446576d159c4d846a3a9538c1247&#34;&gt;Ustream Producer&lt;/h3&gt;
+
+&lt;p&gt;総合的な配信ツール。&lt;/p&gt;
+
+&lt;p&gt;USTREAM 公式。 USTREAM 使うならこれだけでなんとかなるかもしれない。
+デスクトップキャプチャの放送ならこれ１つでサクッとできた。
+楽だが、手が届かない部分もありモヤっとするかも。というのも無料版は有料版の機能制限なので。&lt;/p&gt;
+
+&lt;h3 id=&#34;open-broadcaster-software:7cec446576d159c4d846a3a9538c1247&#34;&gt;Open Broadcaster Software&lt;/h3&gt;
+
+&lt;p&gt;総合的な配信ツール。&lt;/p&gt;
+
+&lt;p&gt;軽くてオールインワンでわかりやすい、素晴らしいアプリ。
+コレ一つで配信は完璧。
+ステレオミキサー機能や Twitch への配信機能が内蔵されているのがイイ！
+ただし Windows 専用なので Mac では使えない。&lt;/p&gt;
+
+&lt;h3 id=&#34;limechat:7cec446576d159c4d846a3a9538c1247&#34;&gt;LimeChat&lt;/h3&gt;
+
+&lt;p&gt;IRC (チャット) 用ツール。&lt;/p&gt;
+
+&lt;p&gt;USTREAM や Twitch でコメント/チャットに使われている IRC に接続するためのアプリ。
+IRC 用のアプリなら色々あるが、これのマクロ機能を使って合成音声読み上げができる。
+要するにニコ生以外もコメント読み上げが可能。&lt;/p&gt;
+
+&lt;p&gt;IRC 自体が超メジャーな仕組みなので、同じようなアプリはいっぱいあるような気はする。&lt;/p&gt;
+
+&lt;h3 id=&#34;棒読みちゃん:7cec446576d159c4d846a3a9538c1247&#34;&gt;棒読みちゃん&lt;/h3&gt;
+
+&lt;p&gt;音声合成ツール。&lt;/p&gt;
+
+&lt;p&gt;ニコ生でお馴染みの AquesTalk 、いわゆる「ゆっくり」によるコメント読み上げを行う。
+外部から引数を取るので LimeChat のマクロで連携できる。&lt;/p&gt;
+
+&lt;h2 id=&#34;まとめ:7cec446576d159c4d846a3a9538c1247&#34;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;僕はスマブラ配信には Twitch + Open Broadcaster Software + LimeChat + 棒読みちゃん を、デスクトップキャプチャ配信には USTREAM + Ustream Producer を使うことにしました。&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>スマブラDX 改造コード</title>
+      <link>http://localhost:1313/artifact/ssbm_cheat_code/</link>
+      <pubDate>Fri, 21 Feb 2014 01:49:08 JST</pubDate>
+      
+      <guid>http://localhost:1313/artifact/ssbm_cheat_code/</guid>
+      <description>
+
+&lt;h2 id=&#34;作った改造コード一覧:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;作った改造コード一覧&lt;/h2&gt;
+
+&lt;h3 id=&#34;dol-mod:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;DOL MOD&lt;/h3&gt;
+
+&lt;h4 id=&#34;ネームタグリセット無効化-初期版用-for-v1-00:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;ネームタグリセット無効化 (初期版用 / for v1.00)&lt;/h4&gt;
+
+&lt;p&gt;負け抜けの対戦台などで一時的に不参加となった時にプレイヤーのネームタグがリセットされる（外れてしまう）こと無効化するコード。&lt;/p&gt;
+
+&lt;p&gt;Achilles さんが&lt;a href=&#34;http://smashboards.com/threads/the-dol-mod-topic.326347/page-5#post-16688368&#34;&gt;各バージョン対応&lt;/a&gt;＆&lt;a href=&#34;http://smashboards.com/threads/melee-gecko-codes-guide-and-discussion.327311/&#34;&gt;Gecko コード化&lt;/a&gt;してくれました。
+&lt;strong&gt;Disable Name Tag Reset After Closing Character Port&lt;/strong&gt; というコードです。&lt;/p&gt;
+
+&lt;h5 id=&#34;25d3f0:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;@25D3F0&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;98A4007A -&amp;gt; 60000000
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;25d404:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;@25D404&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;98A4001B -&amp;gt; 60000000
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;解説:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;解説&lt;/h5&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;http://zippy.gfycat.com/HomelyContentCicada.gif&#34; alt=&#34;サンプル画像&#34; /&gt;
+
+(画像は SmashBoards の Achilles1515 さんの投稿より)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;@25D3F0 の方はプレイヤー→ CPU にしたときに名前タグのインデックス番号を消す処理を潰し、@25D404 の方はプレイヤー→ CPU にしたときに名前タグの表示を消す処理を潰す&lt;/p&gt;
+
+&lt;h4 id=&#34;ストックハンデ-初期版用-for-v1-00:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;ストックハンデ (初期版用 / for v1.00)&lt;/h4&gt;
+
+&lt;p&gt;Kou さん発案のストックハンデ。&lt;/p&gt;
+
+&lt;p&gt;スマブラDX 自体のハンデがふっとばしが変わって嫌な場合にお使い下さい。&lt;/p&gt;
+
+&lt;h5 id=&#34;使い方:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;使い方&lt;/h5&gt;
+
+&lt;p&gt;試合開始時に十字キーを入力し続けると、初期ストックが減ります。
+上、右、下、左、でそれぞれ 1, 2, 3, 4 ストック減少します。&lt;/p&gt;
+
+&lt;h5 id=&#34;1760:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;@1760&lt;/h5&gt;
+
+&lt;p&gt;上書きする前に、上書き箇所が全て 0 であることを確認してください。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;3E808046 62949140
+1EBE000C 7E94AA14
+82940000 56950319
+41820008 38A5FFFF
+5695039D 41820008
+38A5FFFE 5695035B
+41820008 38A5FFFD
+569503DF 41820008
+38A5FFFC 2C050000
+40800008 38A00000
+98A3008E 4802F494
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;30824:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;@30824&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;98A3008E -&amp;gt; 4BFD0B1C
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;解説-1:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;解説&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;lis r20, 0x8046
+ori r20, r20, 0x9140    # r20 に 0x469140 (+baseaddress = 1P のコントローラー入力のメモリアドレス)
+mulli r21, r30, 12      # r30 がポート番号
+add r20, r20, r21       # 対象プレイヤーのコントローラー入力を格納するメモリアドレスポインタを取得
+lwz r20, 0(r20)         # r20 にボタン系コントローラー入力のフラグを読み込む
+rlwinm. r21, r20, 0, 12, 12 # 十字キーの入力に合わせてストックを減らす (上から時計回りで 1, 2, 3, 4)
+beq +8
+subi r5, r5, 1
+rlwinm. r21, r20, 0, 14, 14
+beq +8
+subi r5, r5, 2
+rlwinm. r21, r20, 0, 13, 13
+beq +8
+subi r5, r5, 3
+rlwinm. r21, r20, 0, 15, 15
+beq +8
+subi r5, r5, 4
+cmpwi r5, 0             # 初期ストックが負になったら 0 にする
+bge +8
+li r5, 0
+stb r5, 0x8E(r3)        # 初期ストックをメモリに書き込む
+b +0x2F494              # 元の実行位置に戻る
+
+b -0x2f4e4          # エントリポイントのコード: 埋め込みコード先頭に飛ぶ
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;リザルト画面スキップ-初期版用-for-v1-00:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;リザルト画面スキップ (初期版用 / for v1.00)&lt;/h4&gt;
+
+&lt;p&gt;試合後のリザルト画面なんて見ないのにいちいち表示されて鬱陶しい！という人向け&lt;/p&gt;
+
+&lt;h5 id=&#34;17c0:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;@17C0&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;3803FFFF 2C000004
+40820010 2C0B0020
+41820008 38000000
+4819EC40
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;19fff4:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;@19FFF4&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;4BE613AC
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;解説-2:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;解説&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;subi  r0, r3, 1
+cmpwi r0, 4         # r0 は次のシーン番号
+bne-  -&amp;gt;0x800047D8  # 元々、次のシーンがリザルト画面の場合のみ実行
+cmpwi r11, 32       # デバッグモードから試合開始すると r11 が 32 となる
+beq-  -&amp;gt;0x800047D8  # デバッグモードからなら実行しない
+li  r0, 0           # 次のシーンをキャラクターセレクト画面にする
+b -&amp;gt;0x801A3418      # 元の実行位置に戻る
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;ランダムステージスイッチ出現-初期版用-for-v1-00:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;ランダムステージスイッチ出現 (初期版用 / for v1.00)&lt;/h4&gt;
+
+&lt;p&gt;無条件でランダムステージスイッチを出現させる。&lt;/p&gt;
+
+&lt;p&gt;今までのものはタイトルでスタートを押すなどして「お知らせ」を表示させなければならなかったが、これは不要となりました。
+そのため Boot to CSS (起動直後にキャラセレ画面) のコードと併用しやすくなります。&lt;/p&gt;
+
+&lt;p&gt;セーブデータに影響を与えません。&lt;/p&gt;
+
+&lt;h5 id=&#34;15afac:d96fd7cdcbc6d1563876f6f18c2f6612&#34;&gt;@15AFAC&lt;/h5&gt;
+
+&lt;pre&gt;&lt;code&gt;3800000E
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>スマブラDX 調べプレイ解説放送</title>
+      <link>http://localhost:1313/artifact/how_to_analyze_ssbm_system/</link>
+      <pubDate>Sat, 14 Sep 2013 13:37:01 JST</pubDate>
+      
+      <guid>http://localhost:1313/artifact/how_to_analyze_ssbm_system/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.ustream.tv/channel/analyze-ssbm-system&#34;&gt;放送ページ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/misc/How_to_Analyze_SSBM_System.html&#34;&gt;スライド&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/misc/SSBM.ssg&#34;&gt;拙作 SSG ファイル (SpoilerAL 用)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

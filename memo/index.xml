@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memos on アトー出張所</title>
+    <link>http://localhost:1313/memo/</link>
+    <description>Recent content in Memos on アトー出張所</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    
+    
+    
+    <lastBuildDate>Sat, 14 Feb 2015 22:41:01 JST</lastBuildDate>
+    <atom:link href="http://localhost:1313/memo/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>生放送で使うアプリ</title>
+      <link>http://localhost:1313/memo/apps_for_live/</link>
+      <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
+      
+      <guid>http://localhost:1313/memo/apps_for_live/</guid>
+      <description>
+
+&lt;p&gt;生放送（ライブ動画配信）を行う上で必要となるサービス、アプリについて考える。
+デスクトップキャプチャ (= PC の画面を放送)、ゲーム画面キャプチャ両方。&lt;/p&gt;
+
+&lt;h2 id=&#34;配信サービス:7cec446576d159c4d846a3a9538c1247&#34;&gt;配信サービス&lt;/h2&gt;
+
+&lt;p&gt;有名な配信サービスは以下の三つ。
+それぞれメリットデメリットを挙げる。&lt;/p&gt;
+
+&lt;h3 id=&#34;ニコニコ生放送:7cec446576d159c4d846a3a9538c1247&#34;&gt;ニコニコ生放送&lt;/h3&gt;
+
+&lt;p&gt;日本で動画配信といえば YouTube とニコニコ。ニコニコ生放送に至っては圧倒的知名度。&lt;/p&gt;
+
+&lt;h4 id=&#34;メリット:7cec446576d159c4d846a3a9538c1247&#34;&gt;メリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;国産&lt;/li&gt;
+&lt;li&gt;日本でのユーザー数が多い
+
+&lt;ul&gt;
+&lt;li&gt;コメントの&amp;rdquo;やり方&amp;rdquo;に慣れているユーザーが多い&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;コメントでのコミュニケーションを前提とした設計&lt;/li&gt;
+&lt;li&gt;匿名コメントが可能&lt;/li&gt;
+&lt;li&gt;情報量が豊富&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;デメリット:7cec446576d159c4d846a3a9538c1247&#34;&gt;デメリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;月 500 円のプレミアムアカウント料金&lt;/li&gt;
+&lt;li&gt;30 分ごとの放送枠の取得しなおし＆ユーザーの誘導の手間&lt;/li&gt;
+&lt;li&gt;低画質&lt;/li&gt;
+&lt;li&gt;（視聴にアカウントが必要）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ustream:7cec446576d159c4d846a3a9538c1247&#34;&gt;USTREAM&lt;/h3&gt;
+
+&lt;p&gt;世界で人気のライブ動画配信サービス。
+それなりに長いサービスなので安定してる（気がする）。&lt;/p&gt;
+
+&lt;h4 id=&#34;メリット-1:7cec446576d159c4d846a3a9538c1247&#34;&gt;メリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ustream Producer という専用ソフトで楽に配信ができる&lt;/li&gt;
+&lt;li&gt;日本でも情報量はそれなりにある&lt;/li&gt;
+&lt;li&gt;録画可能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;デメリット-1:7cec446576d159c4d846a3a9538c1247&#34;&gt;デメリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;大規模イベント時に性能が落ちる&lt;/li&gt;
+&lt;li&gt;広告&lt;/li&gt;
+&lt;li&gt;（匿名コメントを許可するには設定が必要）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;twitch:7cec446576d159c4d846a3a9538c1247&#34;&gt;Twitch&lt;/h3&gt;
+
+&lt;p&gt;ゲーム専門動画配信サービス。ゲーム特化。&lt;/p&gt;
+
+&lt;h4 id=&#34;メリット-2:7cec446576d159c4d846a3a9538c1247&#34;&gt;メリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ゲーム特化 → ゲーム名で検索される&lt;/li&gt;
+&lt;li&gt;高画質配信ができる&lt;/li&gt;
+&lt;li&gt;録画可能&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;デメリット-2:7cec446576d159c4d846a3a9538c1247&#34;&gt;デメリット&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;1 アカウント 1 チャンネル (別ゲーするなら毎回編集する必要あり)&lt;/li&gt;
+&lt;li&gt;コメントにアカウントが必要&lt;/li&gt;
+&lt;li&gt;（広告）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ふまえて:7cec446576d159c4d846a3a9538c1247&#34;&gt;ふまえて……&lt;/h3&gt;
+
+&lt;p&gt;ニコ生の 30 分枠はない。配信する方も見る方も面倒すぎる。加えて低画質乙。
+コミュニケーションという最大のメリットも以下に書くツールでなんとかできる。&lt;/p&gt;
+
+&lt;p&gt;USTREAM or Twitch では決定的な差はないが、ゲームするときはゲーム特化という点で Twitch に軍配が上がる。
+逆にデスクトップキャプチャのときは専用のアプリが用意されてる USTREAM に軍配が上がる。&lt;/p&gt;
+
+&lt;h2 id=&#34;アプリ:7cec446576d159c4d846a3a9538c1247&#34;&gt;アプリ&lt;/h2&gt;
+
+&lt;p&gt;ライブ配信は意外と難しい。
+必要なアプリを基本無料で揃える。&lt;/p&gt;
+
+&lt;h3 id=&#34;ustream-producer:7cec446576d159c4d846a3a9538c1247&#34;&gt;Ustream Producer&lt;/h3&gt;
+
+&lt;p&gt;総合的な配信ツール。&lt;/p&gt;
+
+&lt;p&gt;USTREAM 公式。 USTREAM 使うならこれだけでなんとかなるかもしれない。
+デスクトップキャプチャの放送ならこれ１つでサクッとできた。
+楽だが、手が届かない部分もありモヤっとするかも。というのも無料版は有料版の機能制限なので。&lt;/p&gt;
+
+&lt;h3 id=&#34;open-broadcaster-software:7cec446576d159c4d846a3a9538c1247&#34;&gt;Open Broadcaster Software&lt;/h3&gt;
+
+&lt;p&gt;総合的な配信ツール。&lt;/p&gt;
+
+&lt;p&gt;軽くてオールインワンでわかりやすい、素晴らしいアプリ。
+コレ一つで配信は完璧。
+ステレオミキサー機能や Twitch への配信機能が内蔵されているのがイイ！
+ただし Windows 専用なので Mac では使えない。&lt;/p&gt;
+
+&lt;h3 id=&#34;limechat:7cec446576d159c4d846a3a9538c1247&#34;&gt;LimeChat&lt;/h3&gt;
+
+&lt;p&gt;IRC (チャット) 用ツール。&lt;/p&gt;
+
+&lt;p&gt;USTREAM や Twitch でコメント/チャットに使われている IRC に接続するためのアプリ。
+IRC 用のアプリなら色々あるが、これのマクロ機能を使って合成音声読み上げができる。
+要するにニコ生以外もコメント読み上げが可能。&lt;/p&gt;
+
+&lt;p&gt;IRC 自体が超メジャーな仕組みなので、同じようなアプリはいっぱいあるような気はする。&lt;/p&gt;
+
+&lt;h3 id=&#34;棒読みちゃん:7cec446576d159c4d846a3a9538c1247&#34;&gt;棒読みちゃん&lt;/h3&gt;
+
+&lt;p&gt;音声合成ツール。&lt;/p&gt;
+
+&lt;p&gt;ニコ生でお馴染みの AquesTalk 、いわゆる「ゆっくり」によるコメント読み上げを行う。
+外部から引数を取るので LimeChat のマクロで連携できる。&lt;/p&gt;
+
+&lt;h2 id=&#34;まとめ:7cec446576d159c4d846a3a9538c1247&#34;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;僕はスマブラ配信には Twitch + Open Broadcaster Software + LimeChat + 棒読みちゃん を、デスクトップキャプチャ配信には USTREAM + Ustream Producer を使うことにしました。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
