@@ -6,16 +6,13 @@
     <description>Recent content in Artifacts on アトー出張所</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    
-    
-    
-    <lastBuildDate>Sat, 14 Feb 2015 22:41:01 JST</lastBuildDate>
+    <lastBuildDate>Sat, 14 Feb 2015 22:41:01 +0900</lastBuildDate>
     <atom:link href="http://atokigedesu.github.io/artifact/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>判定動画作成スクリプト</title>
       <link>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</link>
-      <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
+      <pubDate>Sat, 14 Feb 2015 22:41:01 +0900</pubDate>
       
       <guid>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://smashboards.com/threads/stratocasters-hitbox-system-new-download-link.283973/&#34;&gt;こちらの攻撃判定データの全画像化プロジェクト&lt;/a&gt;が面白そうだったので動画化するスクリプト作りました。&lt;/p&gt;
@@ -40,7 +37,7 @@
     <item>
       <title>スマブラDX 改造コード</title>
       <link>http://atokigedesu.github.io/artifact/ssbm_cheat_code/</link>
-      <pubDate>Fri, 21 Feb 2014 01:49:08 JST</pubDate>
+      <pubDate>Fri, 21 Feb 2014 01:49:08 +0900</pubDate>
       
       <guid>http://atokigedesu.github.io/artifact/ssbm_cheat_code/</guid>
       <description>
@@ -184,7 +181,7 @@ b -&amp;gt;0x801A3418      # 元の実行位置に戻る
     <item>
       <title>スマブラDX 調べプレイ解説放送</title>
       <link>http://atokigedesu.github.io/artifact/how_to_analyze_ssbm_system/</link>
-      <pubDate>Sat, 14 Sep 2013 13:37:01 JST</pubDate>
+      <pubDate>Sat, 14 Sep 2013 13:37:01 +0900</pubDate>
       
       <guid>http://atokigedesu.github.io/artifact/how_to_analyze_ssbm_system/</guid>
       <description>&lt;ul&gt;

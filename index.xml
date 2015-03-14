@@ -6,16 +6,59 @@
     <description>Recent content on アトー出張所</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    
-    
-    
-    <lastBuildDate>Sat, 14 Feb 2015 22:41:01 JST</lastBuildDate>
+    <lastBuildDate>Sat, 14 Mar 2015 23:22:37 +0900</lastBuildDate>
     <atom:link href="http://atokigedesu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ダウン向き条件？</title>
+      <link>http://atokigedesu.github.io/memo/down/</link>
+      <pubDate>Sat, 14 Mar 2015 23:22:37 +0900</pubDate>
+      
+      <guid>http://atokigedesu.github.io/memo/down/</guid>
+      <description>
+
+&lt;p&gt;半年か一年前ぐらいにダウン向き、つまりうつ伏せ倒れか、仰向け倒れかを決定するのは何か、という調べプレイをしてた。その情報です。&lt;/p&gt;
+
+&lt;p&gt;調べ途中で中断したまま（かの悪名高き）「一時フォルダ」に、データを突っ込んで、すっかり忘れてしまい、アドレスやら何やらが不明になったので覚えてる分だけ書く。&lt;/p&gt;
+
+&lt;p&gt;最近あまりやる気が無く、調べプレイどころかトレモすらしなくなったので、僕が追加で情報を出すことはないのであしからず。&lt;/p&gt;
+
+&lt;p&gt;後、これを調べ途中と言ってるのは、この予想が正しいか検証してなかったり、例外がないか探してなかったりするからです。間違ってたらごめんね。&lt;/p&gt;
+
+&lt;h2 id=&#34;結論:c6efddcfedd44cc8631966ed7e60fc3e&#34;&gt;結論&lt;/h2&gt;
+
+&lt;p&gt;攻撃前の蓄積％によってダウン向きが決まる。
+○％〜○％は仰向け、○％〜○％はうつ伏せ、○％〜○％は仰向け、……と繰り返して変化する。
+その範囲は当てる技、相手キャラ毎にそれぞれ異なる。&lt;/p&gt;
+
+&lt;h2 id=&#34;内部:c6efddcfedd44cc8631966ed7e60fc3e&#34;&gt;内部&lt;/h2&gt;
+
+&lt;p&gt;ダウン向きはそのキャラが最後に当てられた時のふっとばし速度によって決まる。
+ふっとばし速度を x とすると、sin(ax) (a は定数) が正か負かでダウン向きが決まる。&lt;/p&gt;
+
+&lt;h2 id=&#34;思ったこと:c6efddcfedd44cc8631966ed7e60fc3e&#34;&gt;思ったこと&lt;/h2&gt;
+
+&lt;p&gt;ふっとばし速度は体重、技の威力やリアクション値によって変わるので非常に複雑。&lt;/p&gt;
+
+&lt;p&gt;が、変更によって変わるわけではないので、ダウンにつなげる技をキャラ限定で％毎に調べておくと応用できるかもしれない。&lt;/p&gt;
+
+&lt;p&gt;また体重が同じキャラは同じ範囲となるはずなので、そこは楽できる。体重が同じキャラ……？？？&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;どうやって応用するんだ、この情報&lt;/strong&gt;。
+まあ、凄いプレイヤーはびっくりするようなネタを作るから、こんな情報でも役立つかも。&lt;/p&gt;
+
+&lt;h2 id=&#34;調べプレイヤー向け:c6efddcfedd44cc8631966ed7e60fc3e&#34;&gt;調べプレイヤー向け&lt;/h2&gt;
+
+&lt;p&gt;内部の計算はエミュレータ使ってアセンブリ読まないとわからないことなので、追試に結構知識がいる。計算機作れる現象だけど大変です。&lt;/p&gt;
+
+&lt;p&gt;キャラの状態（立ち、攻撃中、走り中など）を格納するメモリアドレスに書き込みする命令を検知するブレークポイントを引っ掛けて探しました。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>判定動画作成スクリプト</title>
       <link>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</link>
-      <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
+      <pubDate>Sat, 14 Feb 2015 22:41:01 +0900</pubDate>
       
       <guid>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://smashboards.com/threads/stratocasters-hitbox-system-new-download-link.283973/&#34;&gt;こちらの攻撃判定データの全画像化プロジェクト&lt;/a&gt;が面白そうだったので動画化するスクリプト作りました。&lt;/p&gt;
@@ -40,7 +83,7 @@
     <item>
       <title>生放送で使うアプリ</title>
       <link>http://atokigedesu.github.io/memo/apps_for_live/</link>
-      <pubDate>Sun, 25 May 2014 15:57:37 JST</pubDate>
+      <pubDate>Sun, 25 May 2014 15:57:37 +0900</pubDate>
       
       <guid>http://atokigedesu.github.io/memo/apps_for_live/</guid>
       <description>
@@ -177,7 +220,7 @@ IRC 用のアプリなら色々あるが、これのマクロ機能を使って�
     <item>
       <title>スマブラDX 改造コード</title>
       <link>http://atokigedesu.github.io/artifact/ssbm_cheat_code/</link>
-      <pubDate>Fri, 21 Feb 2014 01:49:08 JST</pubDate>
+      <pubDate>Fri, 21 Feb 2014 01:49:08 +0900</pubDate>
       
       <guid>http://atokigedesu.github.io/artifact/ssbm_cheat_code/</guid>
       <description>
@@ -321,7 +364,7 @@ b -&amp;gt;0x801A3418      # 元の実行位置に戻る
     <item>
       <title>スマブラDX 調べプレイ解説放送</title>
       <link>http://atokigedesu.github.io/artifact/how_to_analyze_ssbm_system/</link>
-      <pubDate>Sat, 14 Sep 2013 13:37:01 JST</pubDate>
+      <pubDate>Sat, 14 Sep 2013 13:37:01 +0900</pubDate>
       
       <guid>http://atokigedesu.github.io/artifact/how_to_analyze_ssbm_system/</guid>
       <description>&lt;ul&gt;
