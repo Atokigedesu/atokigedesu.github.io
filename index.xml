@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>アトー出張所</title>
+    <title>アトー出張所 </title>
     <link>http://atokigedesu.github.io/</link>
-    <description>Recent content on アトー出張所</description>
-    <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 14 Mar 2015 23:22:37 +0900</lastBuildDate>
-    <atom:link href="http://atokigedesu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <author>Ato</author>
+    <copyright>© 2015 Ato. All Rights Reserved.</copyright>
+    <updated>Sat, 14 Mar 2015 23:22:37 JST</updated>
     
     <item>
       <title>ダウン向き条件？</title>
       <link>http://atokigedesu.github.io/memo/down/</link>
-      <pubDate>Sat, 14 Mar 2015 23:22:37 +0900</pubDate>
-      
+      <pubDate>Sat, 14 Mar 2015 23:22:37 JST</pubDate>
+      <author>Ato</author>
       <guid>http://atokigedesu.github.io/memo/down/</guid>
       <description>
 
@@ -58,8 +57,8 @@
     <item>
       <title>判定動画作成スクリプト</title>
       <link>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</link>
-      <pubDate>Sat, 14 Feb 2015 22:41:01 +0900</pubDate>
-      
+      <pubDate>Sat, 14 Feb 2015 22:41:01 JST</pubDate>
+      <author>Ato</author>
       <guid>http://atokigedesu.github.io/artifact/hitbox_video_generator_script/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;http://smashboards.com/threads/stratocasters-hitbox-system-new-download-link.283973/&#34;&gt;こちらの攻撃判定データの全画像化プロジェクト&lt;/a&gt;が面白そうだったので動画化するスクリプト作りました。&lt;/p&gt;
 
@@ -83,8 +82,8 @@
     <item>
       <title>生放送で使うアプリ</title>
       <link>http://atokigedesu.github.io/memo/apps_for_live/</link>
-      <pubDate>Sun, 25 May 2014 15:57:37 +0900</pubDate>
-      
+      <pubDate>Sun, 25 May 2014 15:57:37 JST</pubDate>
+      <author>Ato</author>
       <guid>http://atokigedesu.github.io/memo/apps_for_live/</guid>
       <description>
 
@@ -220,8 +219,8 @@ IRC 用のアプリなら色々あるが、これのマクロ機能を使って�
     <item>
       <title>スマブラDX 改造コード</title>
       <link>http://atokigedesu.github.io/artifact/ssbm_cheat_code/</link>
-      <pubDate>Fri, 21 Feb 2014 01:49:08 +0900</pubDate>
-      
+      <pubDate>Fri, 21 Feb 2014 01:49:08 JST</pubDate>
+      <author>Ato</author>
       <guid>http://atokigedesu.github.io/artifact/ssbm_cheat_code/</guid>
       <description>
 
@@ -364,8 +363,8 @@ b -&amp;gt;0x801A3418      # 元の実行位置に戻る
     <item>
       <title>スマブラDX 調べプレイ解説放送</title>
       <link>http://atokigedesu.github.io/artifact/how_to_analyze_ssbm_system/</link>
-      <pubDate>Sat, 14 Sep 2013 13:37:01 +0900</pubDate>
-      
+      <pubDate>Sat, 14 Sep 2013 13:37:01 JST</pubDate>
+      <author>Ato</author>
       <guid>http://atokigedesu.github.io/artifact/how_to_analyze_ssbm_system/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.ustream.tv/channel/analyze-ssbm-system&#34;&gt;放送ページ&lt;/a&gt;&lt;/li&gt;

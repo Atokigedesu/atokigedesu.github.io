@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Memos on アトー出張所</title>
+    <title>アトー出張所 </title>
     <link>http://atokigedesu.github.io/memo/</link>
-    <description>Recent content in Memos on アトー出張所</description>
-    <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 14 Mar 2015 23:22:37 +0900</lastBuildDate>
-    <atom:link href="http://atokigedesu.github.io/memo/index.xml" rel="self" type="application/rss+xml" />
+    <author>Ato</author>
+    <copyright>© 2015 Ato. All Rights Reserved.</copyright>
+    <updated>Sat, 14 Mar 2015 23:22:37 JST</updated>
     
     <item>
       <title>ダウン向き条件？</title>
       <link>http://atokigedesu.github.io/memo/down/</link>
-      <pubDate>Sat, 14 Mar 2015 23:22:37 +0900</pubDate>
-      
+      <pubDate>Sat, 14 Mar 2015 23:22:37 JST</pubDate>
+      <author>Ato</author>
       <guid>http://atokigedesu.github.io/memo/down/</guid>
       <description>
 
@@ -58,8 +57,8 @@
     <item>
       <title>生放送で使うアプリ</title>
       <link>http://atokigedesu.github.io/memo/apps_for_live/</link>
-      <pubDate>Sun, 25 May 2014 15:57:37 +0900</pubDate>
-      
+      <pubDate>Sun, 25 May 2014 15:57:37 JST</pubDate>
+      <author>Ato</author>
       <guid>http://atokigedesu.github.io/memo/apps_for_live/</guid>
       <description>
 
