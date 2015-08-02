@@ -5,7 +5,7 @@
     <link>http://atokigedesu.github.io/artifact/</link>
     <language>ja-jp</language>
     <author>Ato</author>
-    <copyright>© 2015 Ato. All Rights Reserved.</copyright>
+    
     <updated>Sat, 14 Feb 2015 22:41:01 JST</updated>
     
     <item>
@@ -30,6 +30,9 @@
 &lt;p&gt;これ、Mac で作ったけど Linux でも動くんじゃないかな。ある程度はしっかりつくりました。
 ただ、まあ、元データの命名規則がバラバラなので上手く動画化されないキャラもいます……。&lt;/p&gt;
 </description>
+      <images>
+        <url>http://atokigedesu.github.io/images/hitbox-video-thumb.png</url>
+      </images>
     </item>
     
     <item>
@@ -173,6 +176,9 @@ b -&amp;gt;0x801A3418      # 元の実行位置に戻る
 &lt;pre&gt;&lt;code&gt;3800000E
 &lt;/code&gt;&lt;/pre&gt;
 </description>
+      <images>
+        <url>http://zippy.gfycat.com/HomelyContentCicada.gif</url>
+      </images>
     </item>
     
     <item>
@@ -187,6 +193,9 @@ b -&amp;gt;0x801A3418      # 元の実行位置に戻る
 &lt;li&gt;&lt;a href=&#34;http://atokigedesu.github.io/misc/SSBM.ssg&#34;&gt;拙作 SSG ファイル (SpoilerAL 用)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+      <images>
+        <url>http://atokigedesu.github.io/images/ustream.jpg</url>
+      </images>
     </item>
     
   </channel>

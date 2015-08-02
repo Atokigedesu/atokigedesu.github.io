@@ -11,19 +11,35 @@ body {
   color: #422;
 }
 
-article.page {
+a {
+  color: #422;
+  text-decoration: none;
+}
+
+.page {
   width: 80%;
   margin: auto;
 }
 
-a {
+article header h1 {
+  padding: 0 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, .2);
+  box-shadow: -1px 1px 0 rgba(255, 255, 255, .3);
+}
+
+.date {
+  color: #aaa;
+  font-size: 0.75em;
+}
+
+article a {
   font-weight: bold;
   text-decoration: none;
   color: #994900;
   transition: color .5s ease;
 }
 
-a:hover {
+article a:hover {
   color: #FF9532;
 }
 
@@ -57,9 +73,34 @@ img {
   max-width: 100%;
 }
 
+.thumbnail {
+  display: inline-block;
+  width: 16rem;
+  height: 16rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .notify {
   font-size: xx-large;
   font-weight: bold;
   text-align: center;
   margin: 1em;
+}
+
+.line-article {
+  display: flex;
+  margin: 1em;
+  height: 16rem;
+}
+
+.line-article .description {
+  flex: 1;
+  margin: 0 1em 1em 1em;
+  overflow: hidden;
+}
+
+.line-article .description h3 {
+  margin: 0;
 }

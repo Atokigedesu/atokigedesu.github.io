@@ -1,0 +1,71 @@
+<!doctype html>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/styles/header.css">
+<link rel="stylesheet" href="/styles/footer.css">
+<link rel="stylesheet" href="/styles/preview-line.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="alternate" type="application/rss+xml" href="/index.xml" />
+<title>アトー出張所</title>
+
+
+<header>
+  <div class="head-bar">
+    <div class="title-background">
+      <a href="/"><h1>アトー出張所</h1></a>
+    </div>
+  </div>
+</header>
+
+
+<main class="page">
+
+  <section class="artifact">
+    <header>
+      <h2><i class="fa fa-check-square"></i> 作ったもの</h2>
+    </header>
+    <main>
+      
+      <a href="http://atokigedesu.github.io/artifact/hitbox_video_generator_script/">
+  <article class="line-article">
+    <span class="thumbnail" style="background-image: url(/images/hitbox-video-thumb.png)"></span>
+    <div class="description">
+      <h3><span class="date">2015/2/14</span> 判定動画作成スクリプト</h3>
+      <p>こちらの攻撃判定データの全画像化プロジェクトが面白そうだったので動画化するスクリプト作りました。 出力はこんな感じ 上のプロジェクトのリンクからNew Hitboxes.zipをダウンロードしてきて、上のスクリプトを zip と同じディレクトリで実行すると使えます。 以前作った HTML5 video タグを 1 フレーム単位で再生するこれと組み合わせてうにょうにょしたいなーとか。 これ、Mac で作ったけど Linux でも動くんじゃないかな。ある程度はしっかりつくりました。 ただ、まあ、元データの命名規則がバラバラなので上手く動画化されないキャラもいます……。</p>
+    </div>
+  </article>
+</a>
+
+      
+      <a href="http://atokigedesu.github.io/artifact/ssbm_cheat_code/">
+  <article class="line-article">
+    <span class="thumbnail" style="background-image: url(http://zippy.gfycat.com/HomelyContentCicada.gif)"></span>
+    <div class="description">
+      <h3><span class="date">2014/2/21</span> スマブラDX 改造コード</h3>
+      <p>作った改造コード一覧 DOL MOD ネームタグリセット無効化 (初期版用 / for v1.00) 負け抜けの対戦台などで一時的に不参加となった時にプレイヤーのネームタグがリセットされる（外れてしまう）こと無効化するコード。 Achilles さんが各バージョン対応＆Gecko コード化してくれました。 Disable Name Tag Reset After Closing Character Port というコードです。 @25D3F0 98A4007A -&gt; 60000000 @25D404 98A4001B -&gt; 60000000 解説 (画像は SmashBoards の Achilles1515 さんの投稿より) @25D3F0 の方はプレイヤー→ CPU にしたときに名前タグのインデックス番号を消す処理を潰し、@25D404 の方はプレイヤー→ CPU にしたときに名前タグの表示を消す処理を潰す ストックハンデ (初期版用 / for v1.00) Kou さん発案のストックハンデ。 スマブラDX 自体のハンデがふっとばしが変わって嫌な場合にお使い下さい。 使い方 試合開始時に十字キーを入力し続けると、初期ストックが減ります。 上、右、下、左、でそれぞれ 1, 2, 3, 4 ストック減少します。 @1760 上書きする前に、上書き箇所が全て 0 であることを確認してください。 3E808046 62949140 1EBE000C 7E94AA14 82940000 56950319 41820008 38A5FFFF 5695039D 41820008 38A5FFFE 5695035B 41820008 38A5FFFD 569503DF 41820008 38A5FFFC 2C050000 40800008 38A00000 98A3008E 4802F494 @30824 98A3008E -&gt; 4BFD0B1C 解説 lis r20, 0x8046 ori r20, r20, 0x9140 # r20 に 0x469140 (+baseaddress = 1P のコントローラー入力のメモリアドレス) mulli r21, r30, 12 # r30 がポート番号 add r20, r20, r21 # 対象プレイヤーのコントローラー入力を格納するメモリアドレスポインタを取得 lwz r20, 0(r20) # r20 にボタン系コントローラー入力のフラグを読み込む rlwinm.</p>
+    </div>
+  </article>
+</a>
+
+      
+      <a href="http://atokigedesu.github.io/artifact/how_to_analyze_ssbm_system/">
+  <article class="line-article">
+    <span class="thumbnail" style="background-image: url(/images/ustream.jpg)"></span>
+    <div class="description">
+      <h3><span class="date">2013/9/14</span> スマブラDX 調べプレイ解説放送</h3>
+      <p>放送ページ スライド 拙作 SSG ファイル (SpoilerAL 用)</p>
+    </div>
+  </article>
+</a>
+
+      
+    </main>
+  </section>
+
+</main>
+
+<footer>
+  <p><small>© 2015 Ato. All Rights Reserved.</small></p>
+</footer>
+

@@ -5,7 +5,7 @@
     <link>http://atokigedesu.github.io/</link>
     <language>ja-jp</language>
     <author>Ato</author>
-    <copyright>© 2015 Ato. All Rights Reserved.</copyright>
+    
     <updated>Sat, 14 Mar 2015 23:22:37 JST</updated>
     
     <item>
@@ -52,6 +52,9 @@
 
 &lt;p&gt;キャラの状態（立ち、攻撃中、走り中など）を格納するメモリアドレスに書き込みする命令を検知するブレークポイントを引っ掛けて探しました。&lt;/p&gt;
 </description>
+      <images>
+        <url>http://atokigedesu.github.io/images/down.png</url>
+      </images>
     </item>
     
     <item>
@@ -76,6 +79,9 @@
 &lt;p&gt;これ、Mac で作ったけど Linux でも動くんじゃないかな。ある程度はしっかりつくりました。
 ただ、まあ、元データの命名規則がバラバラなので上手く動画化されないキャラもいます……。&lt;/p&gt;
 </description>
+      <images>
+        <url>http://atokigedesu.github.io/images/hitbox-video-thumb.png</url>
+      </images>
     </item>
     
     <item>
@@ -213,6 +219,9 @@ IRC 用のアプリなら色々あるが、これのマクロ機能を使って�
 
 &lt;p&gt;僕はスマブラ配信には Twitch + Open Broadcaster Software + LimeChat + 棒読みちゃん を、デスクトップキャプチャ配信には USTREAM + Ustream Producer を使うことにしました。&lt;/p&gt;
 </description>
+      <images>
+        <url>http://atokigedesu.github.io/images/nicolive-vs-twitch.png</url>
+      </images>
     </item>
     
     <item>
@@ -356,6 +365,9 @@ b -&amp;gt;0x801A3418      # 元の実行位置に戻る
 &lt;pre&gt;&lt;code&gt;3800000E
 &lt;/code&gt;&lt;/pre&gt;
 </description>
+      <images>
+        <url>http://zippy.gfycat.com/HomelyContentCicada.gif</url>
+      </images>
     </item>
     
     <item>
@@ -370,6 +382,9 @@ b -&amp;gt;0x801A3418      # 元の実行位置に戻る
 &lt;li&gt;&lt;a href=&#34;http://atokigedesu.github.io/misc/SSBM.ssg&#34;&gt;拙作 SSG ファイル (SpoilerAL 用)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+      <images>
+        <url>http://atokigedesu.github.io/images/ustream.jpg</url>
+      </images>
     </item>
     
   </channel>

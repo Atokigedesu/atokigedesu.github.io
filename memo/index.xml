@@ -5,7 +5,7 @@
     <link>http://atokigedesu.github.io/memo/</link>
     <language>ja-jp</language>
     <author>Ato</author>
-    <copyright>© 2015 Ato. All Rights Reserved.</copyright>
+    
     <updated>Sat, 14 Mar 2015 23:22:37 JST</updated>
     
     <item>
@@ -52,6 +52,9 @@
 
 &lt;p&gt;キャラの状態（立ち、攻撃中、走り中など）を格納するメモリアドレスに書き込みする命令を検知するブレークポイントを引っ掛けて探しました。&lt;/p&gt;
 </description>
+      <images>
+        <url>http://atokigedesu.github.io/images/down.png</url>
+      </images>
     </item>
     
     <item>
@@ -189,6 +192,9 @@ IRC 用のアプリなら色々あるが、これのマクロ機能を使って�
 
 &lt;p&gt;僕はスマブラ配信には Twitch + Open Broadcaster Software + LimeChat + 棒読みちゃん を、デスクトップキャプチャ配信には USTREAM + Ustream Producer を使うことにしました。&lt;/p&gt;
 </description>
+      <images>
+        <url>http://atokigedesu.github.io/images/nicolive-vs-twitch.png</url>
+      </images>
     </item>
     
   </channel>

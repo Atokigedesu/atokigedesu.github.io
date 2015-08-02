@@ -1,0 +1,60 @@
+<!doctype html>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="/styles/main.css">
+<link rel="stylesheet" href="/styles/header.css">
+<link rel="stylesheet" href="/styles/footer.css">
+<link rel="stylesheet" href="/styles/preview-line.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="alternate" type="application/rss+xml" href="/index.xml" />
+<title>アトー出張所</title>
+
+
+<header>
+  <div class="head-bar">
+    <div class="title-background">
+      <a href="/"><h1>アトー出張所</h1></a>
+    </div>
+  </div>
+</header>
+
+
+<main class="page">
+
+  <section class="memo">
+    <header>
+      <h2><i class="fa fa-list-alt"></i> メモ</h2>
+    </header>
+    <main>
+      
+      <a href="http://atokigedesu.github.io/memo/down/">
+  <article class="line-article">
+    <span class="thumbnail" style="background-image: url(/images/down.png)"></span>
+    <div class="description">
+      <h3><span class="date">2015/3/14</span> ダウン向き条件？</h3>
+      <p>半年か一年前ぐらいにダウン向き、つまりうつ伏せ倒れか、仰向け倒れかを決定するのは何か、という調べプレイをしてた。その情報です。 調べ途中で中断したまま（かの悪名高き）「一時フォルダ」に、データを突っ込んで、すっかり忘れてしまい、アドレスやら何やらが不明になったので覚えてる分だけ書く。 最近あまりやる気が無く、調べプレイどころかトレモすらしなくなったので、僕が追加で情報を出すことはないのであしからず。 後、これを調べ途中と言ってるのは、この予想が正しいか検証してなかったり、例外がないか探してなかったりするからです。間違ってたらごめんね。 結論 攻撃前の蓄積％によってダウン向きが決まる。 ○％〜○％は仰向け、○％〜○％はうつ伏せ、○％〜○％は仰向け、……と繰り返して変化する。 その範囲は当てる技、相手キャラ毎にそれぞれ異なる。 内部 ダウン向きはそのキャラが最後に当てられた時のふっとばし速度によって決まる。 ふっとばし速度を x とすると、sin(ax) (a は定数) が正か負かでダウン向きが決まる。 思ったこと ふっとばし速度は体重、技の威力やリアクション値によって変わるので非常に複雑。 が、変更によって変わるわけではないので、ダウンにつなげる技をキャラ限定で％毎に調べておくと応用できるかもしれない。 また体重が同じキャラは同じ範囲となるはずなので、そこは楽できる。体重が同じキャラ……？？？ どうやって応用するんだ、この情報。 まあ、凄いプレイヤーはびっくりするようなネタを作るから、こんな情報でも役立つかも。 調べプレイヤー向け 内部の計算はエミュレータ使ってアセンブリ読まないとわからないことなので、追試に結構知識がいる。計算機作れる現象だけど大変です。 キャラの状態（立ち、攻撃中、走り中など）を格納するメモリアドレスに書き込みする命令を検知するブレークポイントを引っ掛けて探しました。</p>
+    </div>
+  </article>
+</a>
+
+      
+      <a href="http://atokigedesu.github.io/memo/apps_for_live/">
+  <article class="line-article">
+    <span class="thumbnail" style="background-image: url(/images/nicolive-vs-twitch.png)"></span>
+    <div class="description">
+      <h3><span class="date">2014/5/25</span> 生放送で使うアプリ</h3>
+      <p>生放送（ライブ動画配信）を行う上で必要となるサービス、アプリについて考える。 デスクトップキャプチャ (= PC の画面を放送)、ゲーム画面キャプチャ両方。 配信サービス 有名な配信サービスは以下の三つ。 それぞれメリットデメリットを挙げる。 ニコニコ生放送 日本で動画配信といえば YouTube とニコニコ。ニコニコ生放送に至っては圧倒的知名度。 メリット 国産 日本でのユーザー数が多い コメントの&rdquo;やり方&rdquo;に慣れているユーザーが多い コメントでのコミュニケーションを前提とした設計 匿名コメントが可能 情報量が豊富 デメリット 月 500 円のプレミアムアカウント料金 30 分ごとの放送枠の取得しなおし＆ユーザーの誘導の手間 低画質 （視聴にアカウントが必要） USTREAM 世界で人気のライブ動画配信サービス。 それなりに長いサービスなので安定してる（気がする）。 メリット Ustream Producer という専用ソフトで楽に配信ができる 日本でも情報量はそれなりにある 録画可能 デメリット 大規模イベント時に性能が落ちる 広告 （匿名コメントを許可するには設定が必要） Twitch ゲーム専門動画配信サービス。ゲーム特化。 メリット ゲーム特化 → ゲーム名で検索される 高画質配信ができる 録画可能 デメリット 1 アカウント 1 チャンネル (別ゲーするなら毎回編集する必要あり) コメントにアカウントが必要 （広告） ふまえて…… ニコ生の 30 分枠はない。配信する方も見る方も面倒すぎる。加えて低画質乙。 コミュニケーションという最大のメリットも以下に書くツールでなんとかできる。 USTREAM or Twitch では決定的な差はないが、ゲームするときはゲーム特化という点で Twitch に軍配が上がる。 逆にデスクトップキャプチャのときは専用のアプリが用意されてる USTREAM に軍配が上がる。</p>
+    </div>
+  </article>
+</a>
+
+      
+    </main>
+  </section>
+
+</main>
+
+<footer>
+  <p><small>© 2015 Ato. All Rights Reserved.</small></p>
+</footer>
+
